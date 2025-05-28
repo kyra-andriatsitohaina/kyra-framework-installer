@@ -7,7 +7,7 @@ if ! command -v php >/dev/null 2>&1; then
 fi
 
 echo "Téléchargement du CLI Kyra Framework..."
-curl -L https://raw.githubusercontent.com/kyra-andriatsitohaina/kyra-framework-installer/main/monframework -o /usr/local/bin/monframework
-chmod +x /usr/local/bin/monframework
+curl -L https://raw.githubusercontent.com/kyra-andriatsitohaina/kyra-framework-installer/main/kyra-framework -o /usr/local/bin/kyra-framework
+chmod +x /usr/local/bin/kyra-framework
 
 echo "Installation terminée. Utilisez : kyra-framework new projet"
